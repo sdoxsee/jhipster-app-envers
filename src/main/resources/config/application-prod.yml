@@ -18,6 +18,7 @@ spring:
         openInView: false
         show_sql: false
         generate-ddl: false
+        factory-class: org.springframework.data.envers.repository.support.EnversRevisionRepositoryFactoryBean
         hibernate:
             ddl-auto: none
             naming-strategy: org.hibernate.cfg.EJB3NamingStrategy
